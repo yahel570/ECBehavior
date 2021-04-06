@@ -1,0 +1,21 @@
+<Study id="tal.ybalab.ecextque1.0001" datagroup="research">
+
+	<Definitions>
+        <Task id="mgr" file="mgr.js">/common/all/js/quest/0.1/dist/manager.jsp</Task>
+		<Task id="dummy">consent.jst</Task>							
+	</Definitions>
+
+	<Map>
+		<Task id="mgr"/>
+		<Task id="dummy"/>									
+	</Map>
+</Study>
+
+
+
+
+
+
+
+
+

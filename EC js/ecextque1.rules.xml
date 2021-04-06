@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ruleset PUBLIC "dtd/SRML-simpleRules.dtd" "../dtd/SRML-simpleRules.dtd">
+<ruleset name="">
+    <rule name="">
+        <conditionPart>
+            <simpleCondition className="Demographics">
+                <naryExp operator="and">
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt2.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt2.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>       
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt3.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt3.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>   
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt3b.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt3b.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>                      
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt4.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecgestalt4.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>                             
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.extwording1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.extwording1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecggd1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecggd1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecimpmsr1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecimpmsr1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>
+                   <binaryExp operator="neq">
+                        <field name="ecker.ybalab.ecaware2.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="ecker.ybalab.ecaware2.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>  
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13" />
+                        <constant type="string" value="c" />
+                    </binaryExp>   
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13.2" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13.2" />
+                        <constant type="string" value="c" />
+                    </binaryExp>  
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13.3" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecrate13.3" />
+                        <constant type="string" value="c" />
+                    </binaryExp> 
+                   <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecawarecntg1" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecawarecntg1" />
+                        <constant type="string" value="c" />
+                    </binaryExp>   
+                   <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecawarecntg1.2" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="yba.ybalab.ecawarecntg1.2" />
+                        <constant type="string" value="c" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecextiat1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecextiat1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>    
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecextcontext1.0001" />
+                        <constant type="string" value="i" />
+                    </binaryExp>
+                    <binaryExp operator="neq">
+                        <field name="tal.ybalab.ecextcontext1.0001" />
+                        <constant type="string" value="c" />
+                    </binaryExp>                      
+                </naryExp>
+            </simpleCondition>
+        </conditionPart>
+        <actionPart>
+            <assignment>
+                <variable name="odds" />
+                <constant type="int" value="26" />
+            </assignment>
+        </actionPart>
+    </rule>
+</ruleset>
+
+
+
+
+
