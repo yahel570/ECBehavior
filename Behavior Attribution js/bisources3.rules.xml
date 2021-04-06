@@ -1,0 +1,61 @@
+<ruleset name="mayanna.ybalab.bisources3.rules">
+<rule name="mayanna.ybalab.bisources3.rules">
+<conditionPart>
+<simpleCondition className="Demographics">
+<naryExp operator="and">
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources1"/>
+<constant type="string" value="i"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources1"/>
+<constant type="string" value="c"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources2"/>
+<constant type="string" value="i"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources2"/>
+<constant type="string" value="c"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.ambgoals1"/>
+<constant type="string" value="i"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.ambgoals1"/>
+<constant type="string" value="c"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.ambgoals2"/>
+<constant type="string" value="i"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.ambgoals2"/>
+<constant type="string" value="c"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources4"/>
+<constant type="string" value="i"/>
+</binaryExp>
+<binaryExp operator="neq">
+<field name="mayanna.ybalab.bisources4"/>
+<constant type="string" value="c"/>
+</binaryExp>
+</naryExp>
+</simpleCondition>
+</conditionPart>
+<actionPart>
+<assignment>
+<variable name="odds"/>
+<constant type="int" value="26"/>
+</assignment>
+</actionPart>
+</rule>
+</ruleset>
+
+
+
+
+
