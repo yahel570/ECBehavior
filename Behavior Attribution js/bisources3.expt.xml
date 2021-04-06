@@ -1,0 +1,19 @@
+<Study id="mayanna.ybalab.bisources3" datagroup="research">
+
+	<Definitions>
+        <Task id="mgrtest" file="mgr.js">/common/all/js/minnojs/0.2.jsp</Task>
+	<Task id="dummy">consent.js</Task>
+	</Definitions>
+
+	<Map>
+		<Task id="mgrtest"/>
+		<Task id="dummy"/>
+	</Map>
+</Study>
+
+
+
+
+
+
+
